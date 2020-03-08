@@ -16,22 +16,26 @@
 <body>
     <div>
         <style>
-        .ol li {color:violet;}
-            .oranges{color:violet;}
+            .oranges li{color:#d46ded;}
             </style>
         leave this text as the default black
         <ol class="oranges">
             <li>make the text for list items 1 and 2 violet using a descendant selector</li>
             <li>make the text for list items 1 and 2 violet using a descendant selector</li>
-           
         </ol>
-        <style>.ol>p{color:red} </style>
+        
+        <div>
+            <style> div > p {color:red} p + p {color:blue} </style>
         <p>
             make this text red using a child selector
         </p>
         <p>
             make this text blue using an adjacent selector
         </p>
+            
+            <style> div ~ ul {color:orange} li > em {color:#ff94df} </style>
+        </div>
+    
         <ul>
             <li>make this text orange using a general sibling selector; <em>and this phrase pink by combining 2 types of selectors</em></li>
         </ul>
