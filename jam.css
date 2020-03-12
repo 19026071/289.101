@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
  * {outline: red 1px solid;} 
 
@@ -32,7 +33,7 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
 }
 
 #description, #date {
-max-width: 220px;
+    max-width: 220px;
 }
 
 .register_btn {
@@ -47,3 +48,28 @@ max-width: 220px;
     padding: 15px 30px;
     
 }
+
+#what {
+    
+ 
+    color: #487;
+    background-color: rgba(175, 230, 193, 0.9);
+    width: 700px;
+    padding: 20px 300px;
+    text-align: left;
+    margin-top: 360px;
+}
+
+#what h1 + p {font-size: larger;}
+
+#what h1, h2 {text-align: center;}
+#what h2 {margin-top: 10px;}
+
+
+#sponsor_logos {
+    
+    width: 200px;
+    height: 75px;
+}
+
+
