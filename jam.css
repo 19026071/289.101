@@ -83,6 +83,7 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
     padding: 20px 325px;
     /* this padding needs to be flush with the website dimesions */
     font-weight: 510;
+    width; 600px;
 
 }
 
@@ -94,9 +95,85 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
         background-position: center;
         background-size: auto;
         margin: 0;
-    
-    
 }
+
+#where h1 {text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color:mediumvioletred;
+    font-weight: 700;
+}
+
+#where p {text-align: right;
+    color:mediumvioletred;
+    padding-right: 310px;
+    font-weight: 600;
+}
+
+
+#when{
+    background-color: darkcyan;
+    color: white;
+    background-image: url(img/wires.png);
+        background-size: 700px;
+     background-position: center;
+}
+
+#when h1, h2, h3 {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#when h2, ul {
+    padding-bottom: 40px;
+    border-bottom: 2px dashed white;
+    padding-left: 325px;
+    padding-right: 325px;
+   
+
+}
+
+#who {
+    background-color: white;
+    padding-left: 325px;
+    padding-right: 325px;
+        color: #487;
+    font-weight: 510;
+    padding-bottom: 30px;
+}
+
+#who h1 {font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#who p+p {
+    font-size: smaller;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
