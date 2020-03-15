@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
+/*
  * {outline: red 1px solid;} 
+*/
 
 body {
 background-color: #82DDB5;
@@ -52,9 +54,9 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
 
 #what {
     
- 
-    color: #487;
-    background-color: rgba(199, 233, 221, 0.9);
+
+    color: #439998;
+    background-color: rgba(199, 238, 221, 0.9);
     background-size: 800px auto;
     padding: 20px 325px;
     text-align: left;
@@ -92,7 +94,7 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
     background-color: #B6EAD3;
     background-size: 800px auto;
     text-align: left;
-    color: #487;
+    color: #439998;
     padding: 20px 325px;
     font-weight: 510;
 
@@ -110,7 +112,8 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
     padding-top: 80px;
     padding-bottom: 20px;
     color:mediumvioletred;
-    font-weight: 700;
+    font-weight: 900;
+    margin: 0;
 }
 
 #where p {text-align: right;
@@ -124,23 +127,24 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
     background-color: #439998;
     color: white;
     background-image: url(img/wires.png);
-        background-size: 800px auto;
+        background-size: 800px 500px;
      background-position: center;
+    margin: 0;
 }
 
 #when h1, h2, h3 {
     text-align: center;
     font-weight: bolder;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    margin: 0;
 }
 
 #when h2, ul {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     border-bottom: 2px dashed white;
     padding-left: 325px;
     padding-right: 325px;
-   
+    margin: 0;
 
 }
 
@@ -148,7 +152,7 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
     background-color: white;
     padding-left: 325px;
     padding-right: 325px;
-        color: #487;
+    color: #439998;
     font-weight: 510;
     padding-bottom: 30px;
 }
@@ -156,6 +160,7 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
 #who h1 {font-weight: bold;
     text-align: center;
     padding-top: 20px;
+    margin: 0;
 
 }
 
@@ -170,8 +175,8 @@ background-image: url('img/illustration.gif'), url('img/texture.jpg');
 }
     
 #footer img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     align-content: center;
     margin: 10px;
 
