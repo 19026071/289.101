@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Css Layout Lab exercise</title>
+    
+    <meta charset=utf-8>
+    
+    <style>
+        div {outline: black solid 1px;}
+        #container {
+            margin: auto;
+            max-width: 800px;
+        }
+        
+        #blue {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            background-color: blue;
+            height: 30px;
+            padding: 20px;
+        }
+        
+        #yellow {
+            background-color: yellow;
+            grid-column: 1/1;
+            margin: 0px 10px;
+        }
+    
+        #yellow1 {
+            background-color: yellow;
+            grid-column: 2/4;
+            margin: 0px 10px;
+        }
+        
+        
+        #green {background-color: lime; height: 400px}
+    
+        
+        #red {background-color: red; 
+            display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+            height: 275px;
+            padding: 10px;
+        }
+        
+        #yellow2 {background-color: yellow;
+        margin: 10px;
+            grid-column: 1/4;
+            height: 75px;
+        }
+        
+        #yellow3 {background-color: yellow;
+            margin: 10px;
+            height: 160px;
+        }
+        
+    </style>
+    
+    
+    </head>
+
+<body>
+    
+    <div id="container"> 
+    
+    <div id="blue">
+        <div id="yellow"></div>
+        <div id="yellow1"></div>
+        </div>
+    <div id="green"></div>
+        <div id="red">
+            <div id="yellow2"></div>
+            <div id="yellow3"></div>
+            <div id="yellow3"></div>
+            <div id="yellow3"></div>
+        </div>
+    <div id="blue2">
+        <div id="yellow5"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        <div id="yellow4"></div>
+        </div>
+        
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+</html>
